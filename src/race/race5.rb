@@ -20,7 +20,7 @@ Threads = (ARGV[0] || 25).to_i
 
 puts "Transfering Funds from A to B using #{Threads} threads"
 
-A = Account.new(1_000_000)
+A = Account.new(100_000)
 B = Account.new(0)
 
 mutex = Mutex.new

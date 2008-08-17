@@ -47,7 +47,7 @@ def transfer(from_acct, to_account)
   end
 end
 
-Accounts = (0...Threads).map { Account.new(1_000_000) }
+Accounts = (0...Threads).map { Account.new(100_000) }
 
 threads = (0...Threads).map { |i|
   Thread.new do

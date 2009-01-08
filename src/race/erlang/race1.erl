@@ -21,6 +21,9 @@ wait(Account, N) ->
             wait(Account, N-1)
     end.
 
+go() ->
+    A = account:start(0),
+    go(A).
 go(Account) ->
     go(Account, 10),
     wait(Account, 10).

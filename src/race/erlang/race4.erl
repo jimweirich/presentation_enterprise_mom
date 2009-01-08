@@ -22,6 +22,10 @@ wait(From, To, N) ->
             wait(From, To, N-1)
     end.
 
+go() ->
+    A = account:start(100000),
+    B = account:start(0),
+    go(A,B).
 go(From, To) ->
     go(From, To, 10),
     wait(From, To, 10).

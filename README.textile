@@ -1,0 +1,11 @@
+h1. What? Threads are Hard?
+
+This is a presentation on the difficulties of writing thread safe code
+in mainstream programming languages.  We look at the problems that can
+occur, and how several non-mainstream languages deal with the issues.
+
+This presentation has been given under several different names:
+
+* "What the Enterprise Could Learn From Your Mom" -- erubycon, 2008
+* "What Every Rubist Should Know About Threads" -- RubyConf, 2008
+* "What? Threads are Hard?" -- CodeMash, 2009

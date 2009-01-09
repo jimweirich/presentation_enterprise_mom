@@ -1,4 +1,4 @@
-(load-file "threading.cj")
+(load-file "threading.clj")
 
 (def a (ref 1000))
 (def b (ref 1000))

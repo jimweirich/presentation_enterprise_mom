@@ -1,4 +1,4 @@
-(load-file "threading.cj")
+(load-file "threading.clj")
 
 (def account (ref 0))
 
